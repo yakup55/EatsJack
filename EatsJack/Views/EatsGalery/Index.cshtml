@@ -1,0 +1,39 @@
+﻿@using EntityLayers.Concerete
+@model List<Eats>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/EatsLayout.cshtml";
+}
+
+<section class="gallery py-5" id="gallery">
+    <div class="container py-lg-5">
+        <h2 class="heading text-center mb-sm-5 mb-4">Yemek Fotoğraflarımız</h2>
+
+        <div class="row news-grids text-center">
+            @foreach (var x in Model)
+            {
+                <div class="col-md-3 col-6 gal-img">
+                    <a href="#@x.EatsId"><img src="@x.EatsImage" height="200" width="300" alt="portfolio image"></a>
+                </div>
+            }
+        </div>
+
+        <!-- popup1 -->
+        @foreach (var x in Model)
+        {
+            <div id="@x.EatsId" class="pop-overlay" style="overflow:auto;">
+                <div class="popup" >
+                    <img src="@x.EatsImage"  height="300" width="1000"/>
+                    <p> <h6>@x.EatsName</h6> @x.EatsSpecification</p>
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+              
+            </div>
+        }
+            <!-- //popup1 -->
+            <!-- popup2 -->
+
+
+        </div>
+    </section>
+

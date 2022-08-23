@@ -1,0 +1,91 @@
+﻿@model EntityLayers.Concerete.Eats
+@{
+    ViewBag.Title = "ChefsEatsUpdate";
+    Layout = "~/Views/Shared/EatsChefsLayout.cshtml";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery.validate-vsdoc.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<br />
+<br />
+<br />
+<h4>Yemek Güncelleme İncelendikten Sonra Yayınlancaktır</h4>
+@using (Html.BeginForm("ChefsEatsUpdate", "ChefsPanel", FormMethod.Post, new {enctype="multipart/form-data"}))
+{
+    <div class="active tab-pane" id="settings">
+        <form class="form-horizontal">
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    @Html.HiddenFor(x => x.EatsId, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputName" class="col-sm-2 col-form-label">Yemek Adı</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(x => x.EatsName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.EatsName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Kategori</label>
+                <div class="col-sm-10">
+                    @Html.DropDownListFor(x => x.Categoryid, (List<SelectListItem>)ViewBag.vlc, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputName2" class="col-sm-2 col-form-label">Chef</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-10">
+                        @Html.DropDownListFor(x => x.chefsid, (List<SelectListItem>)ViewBag.vlcc, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputExperience" class="col-sm-2 col-form-label">Resim</label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control" placeholder="" required="" name="file" />
+                    <br />
+                    @Html.ValidationMessageFor(x => x.EatsImage, "", new { @class = "text-danger" })
+                    <img src="@Html.DisplayFor(x=>x.EatsImage)" height="50" width="100" />
+                    <input type="hidden"  name="EatsImage" value="@Model.EatsImage" class="form-control" multiple required />
+                    <input type="submit" value="Resim Güncelle" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputSkills" class="col-sm-2 col-form-label">Yemek Tarifi</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(x => x.EatsSpecification, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.EatsSpecification, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputSkills" class="col-sm-2 col-form-label">Yemek Malzemeleri</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(x => x.EatsIngredients, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.EatsIngredients, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            @*<div class="form-group row">
+                <label for="inputSkills" class="col-sm-2 col-form-label">Tarih</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(x => x.EatsDate, new { @class = "form-control" })
+                </div>
+            </div>*@
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-10">
+                    <button type="submit" class="btn btn-outline-success">Güncelle</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <br>
+   
+}
+
+
+

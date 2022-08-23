@@ -1,0 +1,49 @@
+﻿@using EntityLayers.Concerete
+@using PagedList
+@using PagedList.Mvc
+@model PagedList.IPagedList<Contact>
+@{
+    ViewBag.Title = "AdminContactList";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<div class="col-sm-12 col-xl-12">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Öneri Şikayet</h6>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Adı</th>
+                    <th scope="col">Mail Adresi</th>
+                    <th scope="col">Konu</th>
+                    <th scope="col">Telefon Numarası</th>
+                    <th scope="col">Mesaj</th>
+                    <th scope="col">Sil</th>
+                </tr>
+            </thead>
+            @foreach (var x in Model)
+            {
+                <tbody>
+                    <tr>
+                        <th scope="row">@x.ContactId.</th>
+                        <td>@x.ContactName</td>
+                        <td>@x.ContactMail</td>
+                        <td>@x.ContactSubject</td>
+                        <td>@x.ContactNumber</td>
+                        <td>@x.ContactMessage</td>
+                        <td>
+                            <a href="/Admin/AdminContactDelete/@x.ContactId" class="btn btn-danger">Sil</a>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+@Html.PagedListPager((IPagedList)Model, p => Url.Action("AdminContactList", new { p }), new PagedListRenderOptions
+{
+LiElementClasses = new List<string>
+{"page-link"}
+})

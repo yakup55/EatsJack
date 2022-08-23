@@ -1,0 +1,44 @@
+﻿@using EntityLayers.Concerete
+@model List<About>
+@{
+    ViewBag.Title = "AdminAboutList";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="col-sm-12 col-xl-12">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Hakkımda</h6>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Hakkımda Detay</th>
+                    <th scope="col">Resim</th>
+                    <th scope="col">Detay</th>
+                    <th scope="col">Güncelle</th>
+                    <th scope="col">Sil</th>
+                </tr>
+            </thead>
+            @foreach (var x in Model)
+            {
+                <tbody>
+                    <tr>
+                        <td>@x.AboutİD</td>
+                        <td>@x.AboutDetails</td>
+                        <td><img src="@x.AboutImage" width="150" height="150"</td>
+                        <td>
+                            <a href="/About/Index" class="btn btn-danger">Detay</a>
+                        </td>
+                        <td>
+                            <a href="/Admin/AdminAboutUpdate/@x.AboutİD" class="btn btn-danger">Güncelle</a>
+                        </td>
+                        <td>
+                            <a href="/Admin/AdminAboutDelete/@x.AboutİD" class="btn btn-danger">Sil</a>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+<a href="/Admin/AdminAboutAdd" class="btn btn-outline-warning">Hakkımda Ekle</a>

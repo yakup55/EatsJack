@@ -1,0 +1,230 @@
+﻿@using EntityLayers.Concerete
+@model List<Eats>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/EatsLayout.cshtml";
+}
+<div class="banner" id="home">
+    <div class="layer">
+        <div class="container">
+            <div class="banner-text-agile">
+                <div class="row">
+                    <div class="col-lg-6 p-0">
+                        <!-- banner slider-->
+                        <div class="csslider infinity" id="slider1">
+                            <input type="radio" name="slides" checked="checked" id="slides_1" />
+                            <input type="radio" name="slides" id="slides_2" />
+                            <input type="radio" name="slides" id="slides_3" />
+                            <input type="radio" name="slides" id="slides_4" />
+                            <ul class="banner_slide_bg">
+                                <li>
+                                    <div class="container-fluid">
+                                        <div class="w3ls_banner_txt">
+                                            <h3 class="b-w3ltxt text-capitalize mt-md-4"><span>Lezzetli & Gevrek</span> Tarifler.</h3>
+                                            <p class="w3ls_pvt-title my-3">
+                                                Birbirinden güzel lezzetli yemeklerimiz,tatlılarımız,içeçeklerimiz sizleri bekliyor.
+                                            </p>
+                                            <a href="/Eats/Index2" class="btn btn-banner my-sm-3 mb-3">Daha Fazla</a>
+                                            <a href="/Contact/AddContact" class="btn btn-banner1 my-sm-3 mb-3">Bize Ulaş</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="navigation">
+                                <div>
+                                    <label for="slides_1"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //banner slider-->
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-8 mt-lg-0 mt-5">
+                        <img src="~/darkpan-adminpanel/darkpan-1.0.0/img/burger1.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about -->
+<!--<section class="about py-5">
+    <div class="container py-md-3">
+        <h2 class="heading text-center mb-sm-5 mb-4">Hakkımızda </h2>
+        <div class="row">
+            <div class="col-lg-8">
+                <h4 class="about-left">Enjoy the greatest Pleasure in our hotel!</h4>
+                <p class="mt-sm-4 mt-3">
+                    Suspendisse id felis sed felis tincidunt finibus. Nulla sed justo tellus. Donec ut felis ante. Quisque ac sapien
+                    quis orci pulvinar finibus quis eu urna. onec consequat sapien ut leo cursus rhoncus. Nullam dui mi, vulputate ac metus semper Nullam
+                    dui mi.	Vestibulum ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur quis.
+                </p>
+                <div class="row mt-4">
+                    <div class="col-md-3 col-6">
+                        <div class="about-box">
+                            <span class="icon">
+                                <span class="fa fa-birthday-cake"></span>
+                            </span>
+                            <h4>Healthy</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="about-box">
+                            <span class="icon">
+                                <span class="fa fa-rocket"></span>
+                            </span>
+                            <h4>Spicy & Hot</h4>
+                        </div>
+                    </div>-->
+<!-- .about-box ends here -->
+<!--<div class="col-md-3 col-6 mt-md-0 mt-4">
+                        <div class="about-box">
+                            <span class="icon">
+                                <span class="fa fa-cutlery"></span>
+                            </span>
+                            <h4>Crunchy</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mt-md-0 mt-4">
+                        <div class="about-box">
+                            <span class="icon">
+                                <span class="fa fa-coffee"></span>
+                            </span>
+                            <h4>Reciepe</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8 dental">
+                <img src="~/yemeksitesi/web/css/images/banner1.jpg" class="img-fluid" alt="" />
+            </div>
+        </div>
+    </div>
+</section>-->
+<!-- //about -->
+<!-- about bottom -->
+@*<section class="about-bottom pb-5">
+        <div class="container pb-lg-3">
+            <div class="row bottom-grids">
+                <div class="col-lg-6">
+                    <img src="~/yemeksitesi/web/css/images/bg.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-5">
+                    <h4>A tasty and healthy Crispy that we serve for you.</h4>
+                    <p class="py-3">
+                        Suspendisse id felis sed felis tincidunt finibus. Nulla sed in justo inter tellus. Donec ut felis ante. Quisque acin sapien
+                        quis orci pulvinar finibus quis urna. onec consequat sapien ut leo cursus rhoncus. Nullam dui mi, vulputate ac quis eu urna Quisque quis eu urna lorem elit.
+                    </p>
+                    <p class="">
+                        Quisque ac sapien quis orci pulvinar finibus quis eu urna Quisque Suspendisse id felis sed felis tincidunt finibus.
+                        Nulla sed justo tellus. Donec ut felis ante ipsum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>*@
+@*<section class="feedback" id="testimonials">
+        <div class="feedback-layer py-5">
+            <div class="container py-lg-5">
+                <h3 class="heading text-center mb-sm-5 mb-4">Testimonials</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feedback-info">
+                            <div class="feedback-top p-4">
+                                <span class="fa fa-quote-right"></span>
+                                <p> Sed semper leo metus, a lacinia eros ut semper at. Etiam sodales orci sit amet vehicula pellentesque. blandit nec sed tellus. Nam pharetra.</p>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="feedback-grids">
+                                <div class="feedback-img">
+                                    <img src="~/yemeksitesi/web/css/images/ser1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="feedback-img-info">
+                                    <h5>Mary Jane</h5>
+                                    <p class="font-italic">- March 3, 2019.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+                        <div class="feedback-info">
+                            <div class="feedback-top p-4">
+                                <span class="fa fa-quote-right"></span>
+                                <p> Sed semper leo metus, a lacinia eros ut semper at. Etiam sodales orci sit amet vehicula pellentesque. blandit nec sed tellus. Nam pharetra.</p>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="feedback-grids">
+                                <div class="feedback-img">
+                                    <img src="~/yemeksitesi/web/css/images/ser2.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="feedback-img-info">
+                                    <h5>Mary Jane</h5>
+                                    <p class="font-italic">- March 3, 2019.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-5">
+                        <div class="feedback-info">
+                            <div class="feedback-top p-4">
+                                <span class="fa fa-quote-right"></span>
+                                <p> Sed semper leo metus, a lacinia eros ut semper at. Etiam sodales orci sit amet vehicula pellentesque. blandit nec sed tellus. Nam pharetra.</p>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="feedback-grids">
+                                <div class="feedback-img">
+                                    <img src="~/yemeksitesi/web/css/images/ser3.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="feedback-img-info">
+                                    <h5>Mary Jane</h5>
+                                    <p class="font-italic">- March 3, 2019.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+<!-- //testimonials -->
+<!-- blog -->
+@*<section class="blog py-5">
+        <div class="container py-md-5 py-3">
+            <h3 class="heading text-center mb-sm-5 mb-4">Latest News </h3>
+            <div class="row blog-grids">
+                <div class="col-lg-7 mb-lg-5 blog-img1">
+                    <img src="~/yemeksitesi/web/css/images/blog1.jpg" alt="" class="img-fluid" />
+                    <a href="single.html">Blog #1</a>
+                </div>
+                <div class="col-lg-5 mb-lg-5 mb-4">
+                    <h5>March 3, 2019.</h5>
+                    <h4 class="my-3">Nullam dui mi, vulputate ac cursus.</h4>
+                    <p class="my-3">
+                        onec consequat sapien ut leo cursus rhoncus. Nullam duit mi, vulputate ac metus semper Nullam dui mi.
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices morbi posuere cubilia Curae; Curabitur quis luctus lectus.
+                        leo et cursus rhoncus. Nullam dui mi, vulputate cursus.
+                    </p>
+                    <a href="single.html" class="btn-banner"> View Post </a>
+                </div>
+                <div class="col-lg-5 mb-lg-0 mb-4">
+                    <h5>March 3, 2019.</h5>
+                    <h4 class="my-3">Nullam dui mi, vulputate ac cursus.</h4>
+                    <p class="my-3">
+                        onec consequat sapien ut leo cursus rhoncus. Nullam duit mi, vulputate ac metus semper Nullam dui mi.
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices morbi posuere cubilia Curae; Curabitur quis luctus lectus.
+                        leo et cursus rhoncus. Nullam dui mi, vulputate cursus.
+                    </p>
+                    <a href="single.html" class="btn-banner"> View Post </a>
+                </div>
+                <div class="col-lg-7 blog-img2">
+                    <img src="~/yemeksitesi/web/css/images/blog2.jpg" alt="" class="img-fluid" />
+                    <a href="single.html">Blog #2</a>
+                </div>
+            </div>
+        </div>
+    </section>*@
+<!-- //blog -->

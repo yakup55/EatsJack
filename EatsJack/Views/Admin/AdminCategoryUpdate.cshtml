@@ -1,0 +1,52 @@
+﻿@model EntityLayers.Concerete.Category
+@{
+    ViewBag.Title = "AdminCategoryUpdate";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery.validate-vsdoc.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<br />
+<br />
+@using (Html.BeginForm("AdminCategoryUpdate", "Admin", FormMethod.Post))
+{
+    <div class="active tab-pane" id="settings">
+        <form class="form-horizontal">
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    @Html.HiddenFor(x => x.CategoryId, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputName" class="col-sm-2 col-form-label">Kategori Adı</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.CategoryName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputName2" class="col-sm-2 col-form-label">Kategori Tanımı</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(x => x.CategoryDescription, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+            @*<div class="form-group row">
+                    <label for="inputExperience" class="col-sm-2 col-form-label">Kategori Durum</label>
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(x => x.CategoryStatus, new { @class = "form-control" })
+
+                    </div>
+                </div>*@
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-10">
+                    <button type="submit" class="btn btn-outline-success">Güncelle</button>
+                </div>
+            </div>
+        </form>
+    </div>
+}

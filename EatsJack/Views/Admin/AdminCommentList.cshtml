@@ -1,0 +1,55 @@
+﻿@using EntityLayers.Concerete
+@using PagedList
+@using PagedList.Mvc
+@model PagedList.IPagedList<Comment>
+@{
+    ViewBag.Title = "AdminCommentList";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<div class="col-sm-12 col-xl-12">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Yorumlar</h6>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Kullanıcı Adı</th>
+                    <th scope="col">Mail Adresi</th>
+                    <th scope="col">Mesaj</th>
+                    <th scope="col">Yemek Adı</th>
+                    <th scope="col">Durum</th>
+                    <th scope="col">Aktif</th>
+                    <th scope="col">Pasif</th>
+                    <th scope="col">Sil</th>
+                </tr>
+            </thead>
+            @foreach (var x in Model)
+            {
+                <tbody>
+                    <tr>
+                        <th scope="row">@x.CommentId.</th>
+                        <td>@x.CommentName</td>
+                        <td>@x.CommentMail</td>
+                        <td>@x.CommentMessage</td>
+                        <td>@x.Eats.EatsName</td>
+                        <td>@x.CommentStatus</td>
+                        <td>
+                            <a href="/Admin/AdminCommentTrue/@x.CommentId" class="btn btn-danger">Aktif</a>
+                        </td>
+                        <td>
+                            <a href="/Admin/AdminCommentFalse/@x.CommentId" class="btn btn-danger">Pasif</a>
+                        </td>
+                        <td>
+                            <a href="/Admin/AdminCommentDelete/@x.CommentId" class="btn btn-danger">Sil</a>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+@Html.PagedListPager((IPagedList)Model, p => Url.Action("AdminCommentList", new { p }), new PagedListRenderOptions
+{
+LiElementClasses = new List<string>
+{"page-link"}
+})

@@ -1,0 +1,51 @@
+﻿@using EntityLayers.Concerete
+@using PagedList
+@using PagedList.Mvc
+@model PagedList.IPagedList<Service>
+@{
+    ViewBag.Title = "AdminServiceList";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="col-sm-12 col-xl-12">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Kullanıcı Bilgisi</h6>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Service Adı</th>
+                    <th scope="col">Service Açıklama</th>
+                    <th scope="col">Güncelle</th>
+                    <th scope="col">Sil</th>
+                    <th scope="col">Detay</th>
+                </tr>
+            </thead>
+            @foreach (var x in Model)
+            {
+                <tbody>
+                    <tr>
+                        <th scope="row">@x.ServiceId</th>
+                        <td>@x.ServiceName</td>
+                        <td>@x.ServiceContents</td>
+                        <td>
+                            <a href="/Admin/AdminServiceUpdate/@x.ServiceId" class="btn btn-danger">Güncelle</a>
+                        </td>
+                        <td>
+                            <a href="/Admin/AdminServiceDelete/@x.ServiceId" class="btn btn-danger">Sil</a>
+                        </td>
+                        <td>
+                            <a href="/Service/Index" class="btn btn-danger">Detay</a>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+        <a href="/Admin/AdminServiceAdd" class="btn btn-outline-info">Service Ekle</a>
+    </div>
+</div>
+@Html.PagedListPager((IPagedList)Model, p => Url.Action("AdminServiceList", new { p }), new PagedListRenderOptions
+{
+LiElementClasses = new List<string>
+{"page-link"}
+})

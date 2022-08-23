@@ -1,0 +1,28 @@
+﻿@using EntityLayers.Concerete
+@model List<Eats>
+<div class="tech-btm">
+    <h4>Yemeklerimiz</h4>
+    @foreach (var y in Model)
+    {
+        <div class="blog-grids row mb-3 text-left">
+            <div class="col-md-5 blog-grid-left">
+                <a href="/Eats/EatsInformation/@y.EatsId">
+                    <img src="@y.EatsImage" class="card-img-top img-fluid rounded" alt="">
+                </a>
+            </div>
+            <div class="col-md-7 blog-grid-right">
+
+                <h5>
+                    <a href="/Eats/EatsInformation/@y.EatsId">@y.EatsName </a>
+                </h5>
+                <div class="sub-meta">
+                    <span>
+                        <span class="fa fa-clock-o"></span> @y.EatsDate.ToString("dd-MMMM-yyyy")
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    }
+    
+</div>

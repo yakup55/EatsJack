@@ -1,0 +1,63 @@
+﻿@using EntityLayers.Concerete
+@using PagedList
+@using PagedList.Mvc
+@model PagedList.IPagedList<Chefs>
+@{
+    ViewBag.Title = "AdminChefsList";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<div class="col-sm-12 col-xl-12">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Kullanıcı Bilgisi</h6>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Chefs Adı</th>
+                    <th scope="col">Mail Adresi</th>
+                    <th scope="col">Hakkında</th>
+                    <th scope="col">Resim</th>
+                    <th scope="col">Durum</th>
+                    <th scope="col">Şifre</th>
+                    <th scope="col">Instagram</th>
+                    <th scope="col">Facebook</th>
+                    <th scope="col">Linkedin</th>
+                    <th scope="col">Aktif</th>
+                    <th scope="col">Pasif</th>
+                    <th scope="col">Sil</th>
+                </tr>
+            </thead>
+            @foreach (var x in Model)
+            {
+                <tbody>
+                    <tr>
+                        <th scope="row">@x.ChefsId</th>
+                        <td>@x.ChefsName</td>
+                        <td>@x.ChefsMail</td>
+                        <td>@x.ChefsAbout</td>
+                      <td><img src="@x.ChefsImage" width="150" height="150" /></td>  
+                        <td>@x.ChefsStatus</td>
+                        <td>@x.ChefsPassword</td>
+                        <td>@x.MedidInstagram</td>
+                        <td>@x.MedidFacebook</td>
+                        <td>@x.MedidLinkedin</td>
+                        <td>
+                            <a href="/Admin/AdminChefsTrue/@x.ChefsId" class="btn btn-danger">Aktif</a>
+                        </td>
+                        <td>
+                            <a href="/Admin/AdminChefsFalse/@x.ChefsId" class="btn btn-danger">Pasif</a>
+                        </td>
+                        <td>
+                            <a href="/Admin/AdminChefsDelete/@x.ChefsId" class="btn btn-danger">Sil</a>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+@Html.PagedListPager((IPagedList)Model, p => Url.Action("AdminChefsList", new { p }), new PagedListRenderOptions
+{
+LiElementClasses = new List<string>
+{"page-link"}
+})

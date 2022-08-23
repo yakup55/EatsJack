@@ -1,0 +1,151 @@
+﻿@model EntityLayers.Concerete.Chefs
+
+@{
+    ViewBag.Title = "ChefsProfile";
+    Layout = "~/Views/Shared/EatsChefsLayout.cshtml";
+}
+<br />
+<br />  
+@using (Html.BeginForm("ChefsProfile", "ChefsPanel", FormMethod.Post,new {enctype="multipart/form-data"}))
+{
+    <div class="wrapper">
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3">
+
+                            <!-- Profile Image -->
+                            <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                    <div class="text-center">
+                                        <img class="profile-user-img img-fluid img-circle"
+                                             src="@Html.DisplayFor(x=>x.ChefsImage)"
+                                             alt="User profile picture">
+                                    </div>
+
+                                    <h3 class="profile-username text-center">@Html.DisplayFor(x=>x.ChefsName)</h3>
+
+                                    <p class="text-muted text-center">@Html.DisplayFor(x=>x.ChefsMail)</p>
+
+
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                            
+                            <!-- /.card -->
+                            <!-- About Me Box -->
+                            <div class="card card-primary">
+                                <div class="card-header">
+                                    <h3 class="card-title">Hakkımda</h3>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body">
+                                    <p class="text-muted">
+                                       @Html.DisplayFor(x=>x.ChefsAbout)
+                                    </p>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-9">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class=" tab-content">
+                                        <label class="btn btn-primary">Profilimi Düzenle(incelendikten sonra giriş yapabilirsiniz)</label>
+                                        @using (Html.BeginForm("ChefsProfil", "ChefsPanel", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                                        {
+                                            <div class="active tab-pane" id="settings">
+                                                <form class="form-horizontal">
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-10">
+                                                            @Html.HiddenFor(x => x.ChefsId, new { @class = "form-control" })
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="inputName" class="col-sm-2 col-form-label">Adınız</label>
+                                                        <div class="col-sm-10">
+                                                            @Html.TextBoxFor(x => x.ChefsName, new { @class = "form-control" })
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="inputEmail" class="col-sm-2 col-form-label">Email Adresiniz</label>
+                                                        <div class="col-sm-10">
+                                                            @Html.TextBoxFor(x => x.ChefsMail, new { @class = "form-control" })
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="inputName2" class="col-sm-2 col-form-label">Hakkınızda</label>
+                                                        <div class="col-sm-10">
+                                                            <div class="col-sm-10">
+                                                                @Html.TextAreaFor(x => x.ChefsAbout, new { @class = "form-control" })
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="inputExperience" class="col-sm-2 col-form-label">Resim</label>
+                                                        <div class="col-sm-10">
+                                                            <input type="file" class="form-control" placeholder="" required="" name="file" />
+                                                            <input type="hidden" name="ChefsImage" value="@Model.ChefsImage" class="form-control" multiple required />
+                                                            <input type="submit" value="Resim Güncelle" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="inputExperience" class="col-sm-2 col-form-label">Linkedin Hesapınızın Linki</label>
+                                                        <div class="col-sm-10">
+                                                            @Html.TextAreaFor(x => x.MedidLinkedin, new { @class = "form-control" })
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="inputExperience" class="col-sm-2 col-form-label">Facebook Hesapınızın Linki</label>
+                                                        <div class="col-sm-10">
+                                                            @Html.TextAreaFor(x => x.MedidFacebook, new { @class = "form-control" })
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="inputExperience" class="col-sm-2 col-form-label">Instagram Hesapınızın Linki</label>
+                                                        <div class="col-sm-10">
+                                                            @Html.TextAreaFor(x => x.MedidInstagram, new { @class = "form-control" })
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="inputSkills" class="col-sm-2 col-form-label">Şifreniz</label>
+                                                        <div class="col-sm-10">
+                                                            @Html.TextBoxFor(x => x.ChefsPassword, new { @class = "form-control" })
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="offset-sm-2 col-sm-10">
+                                                            <button type="submit" class="btn btn-outline-success">Güncelle</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        }
+                                        <!-- /.tab-pane -->
+                                    </div>
+                                    <!-- /.tab-content -->
+                                </div><!-- /.card-body -->
+                            </div>
+                            <!-- /.nav-tabs-custom -->
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+    </div>
+   
+}

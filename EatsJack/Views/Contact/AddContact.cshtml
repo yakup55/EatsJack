@@ -1,0 +1,62 @@
+﻿@model EntityLayers.Concerete.Contact
+@{
+    ViewBag.Title = "AddContact";
+    Layout = "~/Views/Shared/EatsLayout.cshtml";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+@using (Html.BeginForm("AddContact", "Contact", FormMethod.Post))
+{
+    <section class="mail pt-lg-5 pt-4">
+        <div class="container pt-lg-5">
+            <h2 class="heading text-center mb-sm-5 mb-4">Öneri Veya Şikayet Yap </h2>
+            <div class="row agileinfo_mail_grids">
+                <div class="col-lg-8 agileinfo_mail_grid_right">
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-md-6 wthree_contact_left_grid pr-md-0">
+                                <div class="form-group">
+                                    <label>Adınız</label>
+                                    @Html.TextBoxFor(x => x.ContactName, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(x => x.ContactName, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group">
+                                    <label>Mail Adresiniz</label>
+                                    @Html.TextBoxFor(x => x.ContactMail, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(x => x.ContactMail, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-6 wthree_contact_left_grid">
+                                <div class="form-group">
+                                    <label>Konu</label>
+                                    @Html.TextBoxFor(x => x.ContactSubject, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(x => x.ContactSubject, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Mesajınız</label>
+                                    @Html.TextAreaFor(x => x.ContactMessage, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(x => x.ContactMessage, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="submit-buttons">
+                                    <button type="submit" class="btn">Gönder</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-0 mt-4 contact-info">
+                    <h4 class="mb-4">Addres Bilgilerimiz</h4>
+                    <p><span class="fa mr-2 fa-map-marker"></span>Samsun<span>Türkiye</span></p>
+                    <p><span class="fa mr-2 fa-envelope"></span>Email Gönder: <a href="mailto:yakup.0950@gmail.com">yakup.0950@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+}

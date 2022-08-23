@@ -1,0 +1,15 @@
+﻿@using EntityLayers.Concerete
+@model List<Category>
+<div class="tech-btm">
+    <h4>Kategoriler</h4>
+    @foreach (var x in Model)
+    {
+    <ul class="list-group single ">
+        <li class="list-group-item d-flex justify-content-between align-items-center btn btn-info">
+         <a href="/Eats/EastCategoryList/@x.CategoryId" class="btn btn-outline-warning">@x.CategoryName</a>
+            <span class="badge badge-primary badge-pill">@*@ViewBag.count2*@</span>
+        </li>
+    </ul>
+    }
+</div>
+
