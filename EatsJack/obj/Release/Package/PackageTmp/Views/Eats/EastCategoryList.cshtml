@@ -1,0 +1,36 @@
+﻿@using EntityLayers.Concerete
+@using PagedList
+@using PagedList.Mvc
+@model PagedList.IPagedList<Eats>
+@{
+    ViewBag.Title = "EastCategoryList";
+    Layout = "~/Views/Shared/EatsLayout.cshtml";
+}
+<section class="blog py-5">
+    <div class="container py-md-5 py-3">
+        <h3 class="heading text-center mb-sm-5 mb-4"> Yemeklerimiz </h3>
+        @foreach (var x in Model)
+        {
+            <div class="row blog-grids">
+                <div class="col-lg-7 mb-lg-5 blog-img1">
+                    <img src="@x.EatsImage" alt="" width="800" height="340" />
+                    <a href="/Eats/EatsInformation/@x.EatsId">@x.EatsName</a>
+                </div>
+                <div class="col-lg-5 mb-lg-5 mb-4">
+
+                    <p>
+                        @x.EatsDate.ToString("dd-MMMM-yyyy")
+                        <h4>@x.EatsName Tarifi</h4>
+                        @x.EatsSpecification.Substring(0, 576) devamı detayda
+                    </p>
+                    <a href="/Eats/EatsInformation/@x.EatsId" class="btn-banner"> Detay </a>
+                </div>
+            </div>
+        }
+    </div>
+    @Html.PagedListPager((IPagedList)Model, p => Url.Action("EastCategoryList", new { p }), new PagedListRenderOptions
+{
+   LiElementClasses = new List<string>
+   {"page-link"}
+})
+</section>

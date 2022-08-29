@@ -1,0 +1,74 @@
+﻿@model EntityLayers.Concerete.Chefs
+@{
+    ViewBag.Title = "RegisterChefs";
+    Layout = "~/Views/Shared/EatsLayout.cshtml";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery.validate-vsdoc.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+@using (Html.BeginForm("RegisterChefs", "Register", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+<div class="login-contect py-5">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="container py-xl-5 py-3">
+        <div class="login-body">
+            <div class="login p-4 mx-auto">
+                <h5 class="text-center mb-4">Chef Olarak Aramıza Katıl Bilgileriniz İncelendikten Sonra Giriş Yapabilirsiniz Ancak</h5>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label>Adınız Soyadınız</label>
+                        @Html.TextBoxFor(x => x.ChefsName, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.ChefsName, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label>Email Adresiniz</label>
+                        @Html.TextBoxFor(x => x.ChefsMail, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.ChefsMail, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label>Hakkınızda Kısaca Yazın</label>
+                        @Html.TextBoxFor(x => x.ChefsAbout, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.ChefsAbout, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label>Resim</label>
+                        @Html.ValidationMessageFor(x => x.ChefsImage, "", new { @class = "text-danger" })
+                        <input type="file" class="form-control" name="ChefsImage" placeholder="" required="">
+                    </div>
+                    <div class="form-group">
+                        <label>Linkedin Hesabınız Linki</label>
+                        @Html.TextBoxFor(x => x.MedidLinkedin, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.MedidLinkedin, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label>Instagram Hesabınız Linki</label>
+                        @Html.TextBoxFor(x => x.MedidInstagram, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.MedidInstagram, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label>Facebook Hesabınız Linki</label>
+                        @Html.TextBoxFor(x => x.MedidFacebook, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.MedidFacebook, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label class="mb-2">Şifreniz</label>
+                        @Html.TextBoxFor(x => x.ChefsPassword, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.ChefsPassword, "", new { @class = "text-danger" })
+                    </div>
+
+
+                    <button type="submit" class="btn submit mb-4">Chef Ol</button>
+                    <p class="text-center">
+                        <a href="/Register/LoginChefs" class="text-da">Chefs Giriş Yap</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+}

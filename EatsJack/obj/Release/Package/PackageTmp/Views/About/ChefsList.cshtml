@@ -1,0 +1,40 @@
+﻿@using EntityLayers.Concerete
+@model List<Chefs>
+<section class="trainers py-5">
+    <div class="container py-md-3">
+        <h3 class="heading text-center mb-sm-5 mb-4">Şeflerimiz </h3>
+       
+        <div class="row team_grids mt-5">
+            @foreach (var x in Model)
+            {
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member">
+                        <div>
+                            <img src="@x.ChefsImage"width="330"  height="300" alt="team member">
+                        </div>
+                        <div class="team-hover">
+                            <div class="desk">
+                                <p>@x.ChefsAbout</p>
+                            </div>
+                            <div class="s-link">
+                                <a href="@x.MedidFacebook">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="@x.MedidInstagram">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                                <a href="@x.MedidLinkedin">
+                                    <span class="fa fa-linkedin"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-title">
+                        <center><h4>@x.ChefsName</h4></center>
+                       
+                    </div>
+                </div>
+            }
+            </div>
+           </div>
+</section>

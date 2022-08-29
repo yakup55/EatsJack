@@ -1,0 +1,93 @@
+﻿@using EntityLayers.Concerete
+@model List<Eats>
+@{
+    ViewBag.Title = "EatsChefs";
+    Layout = "~/Views/Shared/EatsChefsLayout.cshtml";
+}
+
+<br />
+<br />
+<br />
+<!DOCTYPE html>
+<button class="btn btn-primary">Yemeklerim</button>
+<html>
+
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="card">
+            <div class="card-header">
+            </div>
+            <div class="card-body p-0">
+                @using (Html.BeginForm("EatsChefs", "ChefsPanel", FormMethod.Post))
+                {
+
+                    <p>
+                        Aranacak Kelimeyi Giriniz @Html.TextBox("f")
+                        <input type="submit" value="Ara" class="btn btn-secondary" />
+                    </p>
+                }
+                <div class="card-body table-responsive p-0" style="height: 300px;">
+                    <table class="table table-head-fixed text-nowrap ">
+
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Yemek Adı</th>
+                                <th>Resim</th>
+                                <th>Kategori</th>
+                            </tr>
+                        </thead>
+                        @foreach (var x in Model)
+                        {
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        @x.EatsId
+                                    </td>
+                                    <td>
+                                        <a>
+                                            @x.EatsName
+                                        </a>
+                                        <br />
+                                        <small>
+                                            @x.EatsDate.ToString("dd-MMMM-yyyy")
+                                        </small>
+                                    </td>
+                                    <td class="project-state">
+                                        <img src="@x.EatsImage" height="75" width="75"></img>
+                                    </td>
+                                    <td class="project-state">
+                                        <span class="">@x.Category.CategoryName</span>
+                                    </td>
+                                    <td class="project-actions text-right">
+                                        <a class="btn btn-primary btn-sm" href="/Eats/EatsInformation/@x.EatsId">
+                                            <i>
+                                            </i>
+                                            Yemek Detayı
+                                        </a>
+                                        <a class="btn btn-info btn-sm" href="/ChefsPanel/ChefsEatsUpdate/@x.EatsId">
+                                            <i class="fas fa-pencil-alt">
+                                            </i>
+                                            Düzenle
+                                        </a>
+                                        <a class="btn btn-danger btn-sm" href="/ChefsPanel/ChefsEatsDelete/@x.EatsId">
+                                            <i>
+                                            </i>
+                                            Sil
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                            </tbody>
+
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+<a href="/ChefsPanel/ChefsEatsAdd/" class="btn btn-primary">Yeni Yemek</a>
+

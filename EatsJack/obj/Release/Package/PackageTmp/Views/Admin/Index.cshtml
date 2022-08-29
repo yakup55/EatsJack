@@ -1,0 +1,130 @@
+﻿@using EntityLayers.Concerete
+@model List<Eats>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+@using (Html.BeginForm("Index", "Admin", FormMethod.Post))
+{
+
+    <p>
+        Aranacak Kelimeyi Giriniz @Html.TextBox("f")
+        <input type="submit" value="Ara" class="btn btn-secondary" />
+    </p>
+}
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-line fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Toplam Yemek Sayısı</p>
+                    <h6 class="mb-0">@ViewBag.sayı1</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Toplam Yorum Sayısı</p>
+                    <h6 class="mb-0">@ViewBag.sayı2</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-area fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Toplam Öneri Sayısı</p>
+                    <h6 class="mb-0">@ViewBag.sayı3</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-pie fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Onaysız Yemek</p>
+                    <h6 class="mb-0">@ViewBag.sayı4</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-pie fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Onaysız Yorum</p>
+                    <h6 class="mb-0">@ViewBag.sayı5</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-pie fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Onaysız Chefs</p>
+                    <h6 class="mb-0">@ViewBag.sayı6</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<a href="/Admin/AdminEatsAdd" class="btn btn-outline-warning">Yemek Ekle</a>
+
+<div class="col-sm-12 col-xl-12">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Yemekler</h6>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="bg-secondary rounded h-100 p-4">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr class="text-white">
+                                <th scope="col">Aktif</th>
+                                <th scope="col">Pasif</th>
+                                <th scope="col">Detay</th>
+                                <th scope="col">Güncelle</th>
+                                <th scope="col">Sil</th>
+                                <th scope="col">Yemek </th>
+                                <th scope="col">Tarif</th>
+                                <th scope="col">Malzeme</th>
+                                <th scope="col">Resim</th>
+                                <th scope="col">Kategori</th>
+                                <th scope="col">Chefs</th>
+                                <th scope="col">Durum</th>
+
+                            </tr>
+                        </thead>
+                        @foreach (var x in Model)
+                        {
+                            <tbody>
+                                <tr>
+                                    <td><a class="btn btn-sm btn-primary" href="/Admin/AdminEatsTrue/@x.EatsId">Aktif</a></td>
+                                    <td><a class="btn btn-sm btn-primary" href="/Admin/AdminEatsFalse/@x.EatsId">Pasif</a></td>
+                                    <td><a class="btn btn-sm btn-primary" href="/Eats/EatsInformation/@x.EatsId">Detay</a></td>
+                                    <td><a class="btn btn-sm btn-primary" href="/Admin/AdminEatsUpdate/@x.EatsId">Güncelle</a></td>
+                                    <td><a class="btn btn-sm btn-primary" href="/Admin/AdminEatsDelete/@x.EatsId">Sil</a></td>
+                                    <td>@x.EatsName</td>
+                                    <td>@x.EatsSpecification</td>
+                                    <td>@x.EatsIngredients</td>
+                                    <td><img src="@x.EatsImage" width="100" height="100" /></td>
+                                    <td>@x.Category.CategoryName</td>
+                                    <td>@x.Chefss.ChefsName </td>
+                                    <td>@x.EatsStatus </td>
+
+                                </tr>
+                            </tbody>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@*@Html.PagedListPager((IPagedList)Model, p => Url.Action("Index", new { p }), new PagedListRenderOptions
+    {
+    LiElementClasses = new List<string>
+    {"page-link"}
+    })*@

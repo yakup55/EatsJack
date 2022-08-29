@@ -1,0 +1,1009 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\90544\Desktop\YemekSitesi</_PublishTargetUrl>
+    <History>True|2022-08-29T19:52:22.5992526Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>10/09/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>10/09/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/BusinessLayer.dll">
+      <publishTime>08/29/2022 22:52:20</publishTime>
+    </File>
+    <File Include="bin/BusinessLayer.dll.config">
+      <publishTime>07/11/2022 21:20:01</publishTime>
+    </File>
+    <File Include="bin/BusinessLayer.pdb">
+      <publishTime>08/29/2022 22:52:20</publishTime>
+    </File>
+    <File Include="bin/DataAccesLayer.dll">
+      <publishTime>08/29/2022 22:52:20</publishTime>
+    </File>
+    <File Include="bin/DataAccesLayer.dll.config">
+      <publishTime>07/11/2022 21:19:24</publishTime>
+    </File>
+    <File Include="bin/DataAccesLayer.pdb">
+      <publishTime>08/29/2022 22:52:20</publishTime>
+    </File>
+    <File Include="bin/EatsJack.dll">
+      <publishTime>08/29/2022 22:52:20</publishTime>
+    </File>
+    <File Include="bin/EatsJack.pdb">
+      <publishTime>08/29/2022 22:52:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/16/2020 23:38:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/16/2020 23:38:56</publishTime>
+    </File>
+    <File Include="bin/EntityLayers.dll">
+      <publishTime>08/29/2022 22:52:19</publishTime>
+    </File>
+    <File Include="bin/EntityLayers.dll.config">
+      <publishTime>07/11/2022 21:22:55</publishTime>
+    </File>
+    <File Include="bin/EntityLayers.pdb">
+      <publishTime>08/29/2022 22:52:19</publishTime>
+    </File>
+    <File Include="bin/FluentValidation.dll">
+      <publishTime>06/22/2022 18:19:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/09/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>09/30/2013 20:36:38</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>09/30/2013 21:15:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/12/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/12/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>05/11/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/11/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/11/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>05/11/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/11/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/11/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>05/11/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/11/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>05/11/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/11/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/11/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>05/11/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>05/11/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>05/11/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/11/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/11/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/11/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/11/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/11/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>05/11/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/11/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/11/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/11/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/11/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/11/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>09/18/2018 22:38:10</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/29/2018 18:39:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 12:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/02/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>07/22/2022 00:01:49</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>07/09/2022 20:41:39</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/404.html">
+      <publishTime>07/20/2022 16:23:46</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/blank.html">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/bootstrap-5-admin-template.jpg">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/button.html">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/chart.html">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/css/bootstrap.min.css">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/css/style.css">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/element.html">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/form.html">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/img/burger1.jpg">
+      <publishTime>07/20/2022 20:33:11</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/img/IMG_E8832.JPG">
+      <publishTime>07/19/2022 20:15:42</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/img/testimonial-1.jpg">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/img/testimonial-2.jpg">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/img/user.jpg">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/index.html">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/js/main.js">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/chart/chart.min.js">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/easing/easing.js">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/easing/easing.min.js">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/owlcarousel/assets/ajax-loader.gif">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/owlcarousel/assets/owl.carousel.css">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/owlcarousel/assets/owl.carousel.min.css">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/owlcarousel/assets/owl.theme.default.css">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/owlcarousel/assets/owl.theme.default.min.css">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/owlcarousel/assets/owl.theme.green.css">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/owlcarousel/assets/owl.theme.green.min.css">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/owlcarousel/assets/owl.video.play.png">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/owlcarousel/LICENSE">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/owlcarousel/owl.carousel.js">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/owlcarousel/owl.carousel.min.js">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/tempusdominus/css/tempusdominus-bootstrap-4.css">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/tempusdominus/js/moment-timezone.min.js">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/tempusdominus/js/moment.min.js">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/tempusdominus/js/tempusdominus-bootstrap-4.js">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/waypoints/links.php">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/lib/waypoints/waypoints.min.js">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/LICENSE.txt">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/READ-ME.txt">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/bootstrap-grid.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/bootstrap-reboot.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/bootstrap-utilities.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/bootstrap.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/forms/_floating-labels.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/forms/_form-check.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/forms/_form-control.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/forms/_form-range.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/forms/_form-select.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/forms/_form-text.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/forms/_input-group.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/forms/_labels.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/forms/_validation.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/helpers/_clearfix.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/helpers/_colored-links.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/helpers/_position.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/helpers/_ratio.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/helpers/_stretched-link.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/helpers/_text-truncation.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/helpers/_visually-hidden.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_alert.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_border-radius.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_box-shadow.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_breakpoints.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_buttons.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_caret.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_clearfix.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_color-scheme.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_container.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_deprecate.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_forms.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_gradients.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_grid.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_image.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_list-group.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_lists.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_pagination.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_reset-text.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_resize.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_table-variants.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_text-truncate.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_transition.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_utilities.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/mixins/_visually-hidden.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/utilities/_api.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/vendor/_rfs.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_accordion.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_alert.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_badge.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_breadcrumb.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_button-group.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_buttons.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_card.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_carousel.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_close.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_containers.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_dropdown.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_forms.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_functions.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_grid.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_helpers.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_images.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_list-group.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_mixins.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_modal.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_nav.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_navbar.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_offcanvas.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_pagination.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_popover.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_progress.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_reboot.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_root.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_spinners.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_tables.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_toasts.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_tooltip.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_transitions.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_type.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_utilities.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/scss/bootstrap/scss/_variables.scss">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/signin.html">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/signup.html">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/table.html">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/typography.html">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="darkpan-adminpanel/darkpan-1.0.0/widget.html">
+      <publishTime>07/18/2022 23:51:38</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>07/09/2022 20:41:39</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/09/2022 20:41:39</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>07/09/2022 20:41:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>07/09/2022 20:41:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>07/09/2022 20:41:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>07/09/2022 20:41:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/09/2022 20:41:44</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>07/09/2022 20:41:43</publishTime>
+    </File>
+    <File Include="Views/About/ChefsList.cshtml">
+      <publishTime>08/19/2022 11:14:21</publishTime>
+    </File>
+    <File Include="Views/About/Index.cshtml">
+      <publishTime>08/24/2022 23:15:33</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminAboutAdd.cshtml">
+      <publishTime>03/08/2022 14:11:54</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminAboutList.cshtml">
+      <publishTime>07/28/2022 15:38:42</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminAboutUpdate.cshtml">
+      <publishTime>03/08/2022 14:14:34</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminAdd.cshtml">
+      <publishTime>02/08/2022 23:05:33</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminCategoryAdd.cshtml">
+      <publishTime>02/08/2022 22:40:32</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminCategoryList.cshtml">
+      <publishTime>07/22/2022 16:28:36</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminCategoryUpdate.cshtml">
+      <publishTime>02/08/2022 23:00:26</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminChefsList.cshtml">
+      <publishTime>07/28/2022 15:37:04</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminCommentList.cshtml">
+      <publishTime>07/22/2022 16:26:23</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminContactList.cshtml">
+      <publishTime>07/22/2022 16:28:07</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminEatsAdd.cshtml">
+      <publishTime>08/15/2022 22:21:06</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminEatsUpdate.cshtml">
+      <publishTime>08/15/2022 21:51:16</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminList.cshtml">
+      <publishTime>07/19/2022 23:26:42</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminRegisterList.cshtml">
+      <publishTime>07/22/2022 16:27:39</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminServiceAdd.cshtml">
+      <publishTime>07/21/2022 20:41:16</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminServiceList.cshtml">
+      <publishTime>07/22/2022 16:25:34</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminServiceUpdate.cshtml">
+      <publishTime>08/23/2022 20:37:25</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminUpdate.cshtml">
+      <publishTime>02/08/2022 23:15:48</publishTime>
+    </File>
+    <File Include="Views/Admin/Index.cshtml">
+      <publishTime>08/22/2022 13:15:56</publishTime>
+    </File>
+    <File Include="Views/AdminLogin/Index.cshtml">
+      <publishTime>07/20/2022 20:16:43</publishTime>
+    </File>
+    <File Include="Views/ChefsPanel/AllEatsChefs.cshtml">
+      <publishTime>07/31/2022 15:07:20</publishTime>
+    </File>
+    <File Include="Views/ChefsPanel/ChefsEatsAdd.cshtml">
+      <publishTime>08/15/2022 21:51:42</publishTime>
+    </File>
+    <File Include="Views/ChefsPanel/ChefsEatsUpdate.cshtml">
+      <publishTime>03/08/2022 14:53:47</publishTime>
+    </File>
+    <File Include="Views/ChefsPanel/ChefsProfile.cshtml">
+      <publishTime>03/08/2022 14:54:31</publishTime>
+    </File>
+    <File Include="Views/ChefsPanel/EatsChefs.cshtml">
+      <publishTime>07/31/2022 15:05:23</publishTime>
+    </File>
+    <File Include="Views/ChefsPanel/Index.cshtml">
+      <publishTime>07/16/2022 15:22:04</publishTime>
+    </File>
+    <File Include="Views/Contact/AddContact.cshtml">
+      <publishTime>02/08/2022 21:59:45</publishTime>
+    </File>
+    <File Include="Views/Contact/Index.cshtml">
+      <publishTime>07/14/2022 22:57:11</publishTime>
+    </File>
+    <File Include="Views/Eats/EastCategoryList.cshtml">
+      <publishTime>08/22/2022 13:23:03</publishTime>
+    </File>
+    <File Include="Views/Eats/EatList.cshtml">
+      <publishTime>08/24/2022 22:18:45</publishTime>
+    </File>
+    <File Include="Views/Eats/EatsCategory.cshtml">
+      <publishTime>03/08/2022 23:35:30</publishTime>
+    </File>
+    <File Include="Views/Eats/EatsComment.cshtml">
+      <publishTime>07/19/2022 20:00:13</publishTime>
+    </File>
+    <File Include="Views/Eats/EatsInformation.cshtml">
+      <publishTime>03/08/2022 23:33:53</publishTime>
+    </File>
+    <File Include="Views/Eats/EatsWeek.cshtml">
+      <publishTime>07/15/2022 14:11:24</publishTime>
+    </File>
+    <File Include="Views/Eats/Index.cshtml">
+      <publishTime>08/23/2022 20:52:35</publishTime>
+    </File>
+    <File Include="Views/Eats/Index2.cshtml">
+      <publishTime>08/13/2022 22:41:36</publishTime>
+    </File>
+    <File Include="Views/EatsGalery/Index.cshtml">
+      <publishTime>08/15/2022 23:46:33</publishTime>
+    </File>
+    <File Include="Views/ErrorPage/Page403.cshtml">
+      <publishTime>07/20/2022 16:40:21</publishTime>
+    </File>
+    <File Include="Views/ErrorPage/Page404.cshtml">
+      <publishTime>07/20/2022 16:40:21</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>07/11/2022 22:30:45</publishTime>
+    </File>
+    <File Include="Views/Register/Index.cshtml">
+      <publishTime>01/08/2022 00:57:36</publishTime>
+    </File>
+    <File Include="Views/Register/LoginChefs.cshtml">
+      <publishTime>07/29/2022 14:58:11</publishTime>
+    </File>
+    <File Include="Views/Register/Register.cshtml">
+      <publishTime>01/08/2022 13:35:55</publishTime>
+    </File>
+    <File Include="Views/Register/RegisterChefs.cshtml">
+      <publishTime>01/08/2022 13:52:38</publishTime>
+    </File>
+    <File Include="Views/Service/Index.cshtml">
+      <publishTime>08/23/2022 20:45:05</publishTime>
+    </File>
+    <File Include="Views/Shared/AdminLayout.cshtml">
+      <publishTime>08/25/2022 11:05:15</publishTime>
+    </File>
+    <File Include="Views/Shared/EatsChefsLayout.cshtml">
+      <publishTime>08/24/2022 23:10:22</publishTime>
+    </File>
+    <File Include="Views/Shared/EatsLayout.cshtml">
+      <publishTime>08/24/2022 23:09:03</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>07/09/2022 20:41:39</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>07/09/2022 20:41:39</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>07/09/2022 20:41:39</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>07/09/2022 20:41:39</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/29/2022 22:52:20</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/404.html">
+      <publishTime>07/20/2022 16:23:25</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/about.html">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/blog.html">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/contact.html">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/css/bootstrap.css">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/css/css_slider.css">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/css/font-awesome.min.css">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/css/style.css">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/fonts/fontawesome-webfont.eot">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/fonts/fontawesome-webfont.svg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/fonts/fontawesome-webfont.ttf">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/fonts/fontawesome-webfont.woff">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/fonts/fontawesome-webfont.woff2">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/fonts/FontAwesome.otf">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/gallery.html">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/avatar.pnp.png">
+      <publishTime>07/14/2022 23:39:39</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/banner.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/banner1.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/bg.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/bg1.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/blog1.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/blog2.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/gallery1.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/gallery2.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/gallery3.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/gallery4.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/gallery5.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/gallery6.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/innerbg.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/ser1.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/ser2.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/ser3.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/t1.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/t2.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/t3.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/images/t4.jpg">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/index.html">
+      <publishTime>07/20/2022 00:22:22</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/services.html">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/single.html">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+    <File Include="yemeksitesi/web/w3layouts-License.txt">
+      <publishTime>07/09/2022 23:21:55</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

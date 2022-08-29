@@ -1,0 +1,50 @@
+﻿@model EntityLayers.Concerete.Admin
+@{
+    ViewBag.Title = "AdminAdd";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+@using (Html.BeginForm("AdminAdd", "Admin", FormMethod.Post))
+{
+    <div class="active tab-pane" id="settings">
+        <form class="form-horizontal">
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    @Html.HiddenFor(x => x.AdminİD, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputName" class="col-sm-2 col-form-label">Admin Adı</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(x => x.AdminName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x=>x.AdminName,"",new {@class="text-danger"})
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputName2" class="col-sm-2 col-form-label">Admin Şifre</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(x => x.AdminPassword, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.AdminPassword, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputName2" class="col-sm-2 col-form-label">Admin Derece</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(x => x.AdminRole, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.AdminRole, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-10">
+                    <button type="submit" class="btn btn-outline-warning">Ekle</button>
+                </div>
+            </div>
+        </form>
+    </div>
+}

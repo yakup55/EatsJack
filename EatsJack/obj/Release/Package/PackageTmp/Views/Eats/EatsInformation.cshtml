@@ -1,0 +1,114 @@
+﻿@model EntityLayers.Concerete.Comments
+@{
+    ViewBag.Title = "EatsInformation";
+    Layout = "~/Views/Shared/EatsLayout.cshtml";
+}
+<br />
+<section class="bottom-banner-w3layouts py-5">
+    <div class="container py-md-3">
+        <h2 class="heading text-center mb-sm-5 mb-4">Yemek Detayı Ve Yorum </h2>
+       
+        <div class="row inner-sec-w3ls-agileinfo">
+            <!--left-->
+            <div class="col-lg-8 left-blog-info text-left">
+                @foreach (var x in Model.Deger1)
+                {
+                    <div class="card">
+                        <a href="">
+                            <img src="@x.EatsImage" class="card-img-top img-fluid" alt="">
+                        </a>
+                        <div class="card-body">
+                            <ul class="blog-icons my-4">
+                                <li>
+                                    <a href="#">
+                                        <span class="fa fa-calendar"></span> @x.EatsDate.ToString("dd-MMMM-yyyy")
+                                    </a>
+                                </li>
+                                <li class="mx-2">
+                                    <a href="#">
+                                        <span class="fa fa-comment"></span> @ViewBag.count1
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="fa fa-book"></span>Kategori:@x.Category.CategoryName
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/About/Index">
+                                        <span class="fa fa-address-book"></span>Chef:@x.Chefss.ChefsName
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <h5 class="card-title ">
+                                <a href="">@x.EatsName Malzemeleri</a>
+                            </h5>
+                            <p class="card-text">@x.EatsIngredients.. </p>
+                            <h5 class="card-title ">
+                                <a href="">@x.EatsName Tarifi</a>
+                            </h5>
+                            <p class="card-text">@x.EatsSpecification.. </p>
+                        </div>
+                    </div>
+                }
+            <div class="comment-top">
+                <h4>Yorumlar</h4>
+                @foreach (var y in Model.Deger2)
+                {
+                    <div class="media">
+                        <img src="~/yemeksitesi/web/images/avatar.pnp.png" height="100"width="100" alt="" class="img-fluid rounded">
+                        <div class="media-body">
+                            <h5 class="mt-sm-0 mt-3">Adı:@y.CommentName</h5>
+                            <p>
+                              Mesajı:@y.CommentMessage
+                            </p>
+
+                        </div>
+                    </div>
+                }
+            </div>
+                @Html.Action("EatsComment", "Eats")
+
+            </div>
+            <!--//left-->
+            <!--right-->
+            <aside class="col-lg-4 right-blog-con text-left">
+                <div class="right-blog-info text-left">
+
+                    @Html.Action("EatsCategory", "Eats")
+
+                    @Html.Action("EatsWeek", "Eats")
+                   
+                    <div class="tech-btm widget_social text-left">
+                        <h4>Bizi Takip Edebilirsin</h4>
+                        <ul>
+                            <li>
+                                <a class="badge-danger"href="https://z-p15.www.instagram.com/yakup.0950/">
+                                    <span class="fa fa-instagram"></span>
+                                    <span class="count"></span> Instagram Takip et
+                                </a>
+                            </li>
+                            <li>
+                                <a class="badge-info" href="https://www.linkedin.com/in/yakup-y%C4%B1ld%C4%B1r%C4%B1m-7a12b0200">
+                                    <span class="fa fa-linkedin"></span>
+
+                                    <span class="count"></span> Linkedin Takip et
+                                </a>
+                            </li>
+                            <li>
+                                <a class="badge-dark" href="https://github.com/yakup55">
+                                    <span class="fa fa-github"></span>
+                                    <span class="count"></span> Github Takip et
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    @Html.Action("EatList","Eats")
+                </div>
+            </aside>
+            <!--//right-->
+        </div>
+    </div>
+</section>

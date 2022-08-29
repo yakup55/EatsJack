@@ -1,0 +1,24 @@
+﻿@using EntityLayers.Concerete
+@model List<Service>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/EatsLayout.cshtml";
+}
+<section class="services py-5">
+    <div class="container py-lg-5">
+        <h3 class="heading text-center mb-sm-5 mb-4">Yardım Aldığım Siteler </h3>
+        <div class="row offer-grids">
+            @foreach (var x in Model)
+            {
+                <div class="col-lg-6 col-md-6">
+                    <div class="ser1">
+                        <div class="bg-layer">
+                            <h4 class="">@x.ServiceName</h4>
+                            <p class="mt-3">@x.ServiceContents</p>
+                        </div>
+                    </div>
+                </div>
+            }
+            </div>
+    </div>
+</section>
