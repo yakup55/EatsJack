@@ -332,6 +332,8 @@
     <Content Include="darkpan-adminpanel\darkpan-1.0.0\scss\bootstrap\scss\_type.scss" />
     <Content Include="darkpan-adminpanel\darkpan-1.0.0\scss\bootstrap\scss\_utilities.scss" />
     <Content Include="darkpan-adminpanel\darkpan-1.0.0\scss\bootstrap\scss\_variables.scss" />
+    <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\myeatsrecipe-001-site1 - FTP.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

@@ -5,39 +5,39 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\90544\Desktop\YemekSitesi</_PublishTargetUrl>
-    <History>True|2022-08-29T19:52:22.5992526Z;</History>
+    <History>True|2022-08-31T06:12:04.1577662Z;True|2022-08-30T23:10:38.7954228+03:00;True|2022-08-30T23:04:29.0798353+03:00;True|2022-08-30T21:16:41.0558824+03:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>10/09/2013 16:29:20</publishTime>
+      <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.pdb">
-      <publishTime>10/09/2013 16:29:20</publishTime>
+      <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/BusinessLayer.dll">
-      <publishTime>08/29/2022 22:52:20</publishTime>
+      <publishTime>08/31/2022 09:11:59</publishTime>
     </File>
     <File Include="bin/BusinessLayer.dll.config">
       <publishTime>07/11/2022 21:20:01</publishTime>
     </File>
     <File Include="bin/BusinessLayer.pdb">
-      <publishTime>08/29/2022 22:52:20</publishTime>
+      <publishTime>08/31/2022 09:11:59</publishTime>
     </File>
     <File Include="bin/DataAccesLayer.dll">
-      <publishTime>08/29/2022 22:52:20</publishTime>
+      <publishTime>08/31/2022 09:11:59</publishTime>
     </File>
     <File Include="bin/DataAccesLayer.dll.config">
       <publishTime>07/11/2022 21:19:24</publishTime>
     </File>
     <File Include="bin/DataAccesLayer.pdb">
-      <publishTime>08/29/2022 22:52:20</publishTime>
+      <publishTime>08/31/2022 09:11:59</publishTime>
     </File>
     <File Include="bin/EatsJack.dll">
-      <publishTime>08/29/2022 22:52:20</publishTime>
+      <publishTime>08/31/2022 09:11:59</publishTime>
     </File>
     <File Include="bin/EatsJack.pdb">
-      <publishTime>08/29/2022 22:52:20</publishTime>
+      <publishTime>08/31/2022 09:11:59</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>04/16/2020 23:38:42</publishTime>
@@ -58,7 +58,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/22/2022 18:19:34</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
-      <publishTime>05/09/2018 16:10:50</publishTime>
+      <publishTime>09/05/2018 16:10:50</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/25/2012 11:48:56</publishTime>
@@ -112,10 +112,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/08/2018 12:09:42</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
-      <publishTime>05/12/2017 09:36:44</publishTime>
+      <publishTime>12/05/2017 09:36:44</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
-      <publishTime>05/12/2017 09:36:44</publishTime>
+      <publishTime>12/05/2017 09:36:44</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
       <publishTime>08/08/2018 12:09:42</publishTime>
@@ -124,85 +124,85 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/08/2018 12:09:42</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
-      <publishTime>05/11/2016 18:55:32</publishTime>
+      <publishTime>11/05/2016 18:55:32</publishTime>
     </File>
     <File Include="bin/roslyn/System.AppContext.dll">
-      <publishTime>05/11/2016 18:55:34</publishTime>
+      <publishTime>11/05/2016 18:55:34</publishTime>
     </File>
     <File Include="bin/roslyn/System.Collections.Immutable.dll">
       <publishTime>05/16/2018 03:29:34</publishTime>
     </File>
     <File Include="bin/roslyn/System.Console.dll">
-      <publishTime>05/11/2016 18:55:48</publishTime>
+      <publishTime>11/05/2016 18:55:48</publishTime>
     </File>
     <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
-      <publishTime>05/11/2016 18:55:52</publishTime>
+      <publishTime>11/05/2016 18:55:52</publishTime>
     </File>
     <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
-      <publishTime>05/11/2016 18:55:56</publishTime>
+      <publishTime>11/05/2016 18:55:56</publishTime>
     </File>
     <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
-      <publishTime>05/11/2016 18:55:52</publishTime>
+      <publishTime>11/05/2016 18:55:52</publishTime>
     </File>
     <File Include="bin/roslyn/System.Globalization.Calendars.dll">
-      <publishTime>05/11/2016 18:56:02</publishTime>
+      <publishTime>11/05/2016 18:56:02</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.Compression.dll">
-      <publishTime>05/11/2016 18:56:08</publishTime>
+      <publishTime>11/05/2016 18:56:08</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
-      <publishTime>05/11/2016 18:56:04</publishTime>
+      <publishTime>11/05/2016 18:56:04</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.FileSystem.dll">
-      <publishTime>05/11/2016 18:56:08</publishTime>
+      <publishTime>11/05/2016 18:56:08</publishTime>
     </File>
     <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
-      <publishTime>05/11/2016 18:56:08</publishTime>
+      <publishTime>11/05/2016 18:56:08</publishTime>
     </File>
     <File Include="bin/roslyn/System.Net.Http.dll">
-      <publishTime>05/11/2016 18:56:30</publishTime>
+      <publishTime>11/05/2016 18:56:30</publishTime>
     </File>
     <File Include="bin/roslyn/System.Net.Sockets.dll">
-      <publishTime>05/11/2016 18:56:34</publishTime>
+      <publishTime>11/05/2016 18:56:34</publishTime>
     </File>
     <File Include="bin/roslyn/System.Reflection.Metadata.dll">
       <publishTime>05/16/2018 03:29:44</publishTime>
     </File>
     <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
-      <publishTime>05/11/2016 18:57:00</publishTime>
+      <publishTime>11/05/2016 18:57:00</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
-      <publishTime>05/11/2016 18:57:14</publishTime>
+      <publishTime>11/05/2016 18:57:14</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
-      <publishTime>05/11/2016 18:57:08</publishTime>
+      <publishTime>11/05/2016 18:57:08</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
-      <publishTime>05/11/2016 18:57:18</publishTime>
+      <publishTime>11/05/2016 18:57:18</publishTime>
     </File>
     <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
-      <publishTime>05/11/2016 18:57:18</publishTime>
+      <publishTime>11/05/2016 18:57:18</publishTime>
     </File>
     <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
-      <publishTime>05/11/2016 18:57:20</publishTime>
+      <publishTime>11/05/2016 18:57:20</publishTime>
     </File>
     <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
-      <publishTime>05/11/2016 18:57:24</publishTime>
+      <publishTime>11/05/2016 18:57:24</publishTime>
     </File>
     <File Include="bin/roslyn/System.ValueTuple.dll">
-      <publishTime>05/11/2016 18:57:30</publishTime>
+      <publishTime>11/05/2016 18:57:30</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
-      <publishTime>05/11/2016 18:57:36</publishTime>
+      <publishTime>11/05/2016 18:57:36</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
-      <publishTime>05/11/2016 18:57:34</publishTime>
+      <publishTime>11/05/2016 18:57:34</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XPath.dll">
-      <publishTime>05/11/2016 18:57:40</publishTime>
+      <publishTime>11/05/2016 18:57:40</publishTime>
     </File>
     <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
-      <publishTime>05/11/2016 18:57:34</publishTime>
+      <publishTime>11/05/2016 18:57:34</publishTime>
     </File>
     <File Include="bin/roslyn/vbc.exe">
       <publishTime>08/08/2018 05:38:48</publishTime>
@@ -232,7 +232,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/28/2018 12:59:46</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>11/02/2014 15:26:04</publishTime>
+      <publishTime>02/11/2014 15:26:04</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
       <publishTime>11/28/2018 13:00:12</publishTime>
@@ -727,25 +727,25 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/24/2022 23:15:33</publishTime>
     </File>
     <File Include="Views/Admin/AdminAboutAdd.cshtml">
-      <publishTime>03/08/2022 14:11:54</publishTime>
+      <publishTime>08/03/2022 14:11:54</publishTime>
     </File>
     <File Include="Views/Admin/AdminAboutList.cshtml">
       <publishTime>07/28/2022 15:38:42</publishTime>
     </File>
     <File Include="Views/Admin/AdminAboutUpdate.cshtml">
-      <publishTime>03/08/2022 14:14:34</publishTime>
+      <publishTime>08/03/2022 14:14:34</publishTime>
     </File>
     <File Include="Views/Admin/AdminAdd.cshtml">
-      <publishTime>02/08/2022 23:05:33</publishTime>
+      <publishTime>08/02/2022 23:05:33</publishTime>
     </File>
     <File Include="Views/Admin/AdminCategoryAdd.cshtml">
-      <publishTime>02/08/2022 22:40:32</publishTime>
+      <publishTime>08/02/2022 22:40:32</publishTime>
     </File>
     <File Include="Views/Admin/AdminCategoryList.cshtml">
       <publishTime>07/22/2022 16:28:36</publishTime>
     </File>
     <File Include="Views/Admin/AdminCategoryUpdate.cshtml">
-      <publishTime>02/08/2022 23:00:26</publishTime>
+      <publishTime>08/02/2022 23:00:26</publishTime>
     </File>
     <File Include="Views/Admin/AdminChefsList.cshtml">
       <publishTime>07/28/2022 15:37:04</publishTime>
@@ -778,7 +778,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/23/2022 20:37:25</publishTime>
     </File>
     <File Include="Views/Admin/AdminUpdate.cshtml">
-      <publishTime>02/08/2022 23:15:48</publishTime>
+      <publishTime>08/02/2022 23:15:48</publishTime>
     </File>
     <File Include="Views/Admin/Index.cshtml">
       <publishTime>08/22/2022 13:15:56</publishTime>
@@ -793,10 +793,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/15/2022 21:51:42</publishTime>
     </File>
     <File Include="Views/ChefsPanel/ChefsEatsUpdate.cshtml">
-      <publishTime>03/08/2022 14:53:47</publishTime>
+      <publishTime>08/03/2022 14:53:47</publishTime>
     </File>
     <File Include="Views/ChefsPanel/ChefsProfile.cshtml">
-      <publishTime>03/08/2022 14:54:31</publishTime>
+      <publishTime>08/30/2022 16:04:19</publishTime>
     </File>
     <File Include="Views/ChefsPanel/EatsChefs.cshtml">
       <publishTime>07/31/2022 15:05:23</publishTime>
@@ -805,7 +805,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/16/2022 15:22:04</publishTime>
     </File>
     <File Include="Views/Contact/AddContact.cshtml">
-      <publishTime>02/08/2022 21:59:45</publishTime>
+      <publishTime>08/02/2022 21:59:45</publishTime>
     </File>
     <File Include="Views/Contact/Index.cshtml">
       <publishTime>07/14/2022 22:57:11</publishTime>
@@ -817,13 +817,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/24/2022 22:18:45</publishTime>
     </File>
     <File Include="Views/Eats/EatsCategory.cshtml">
-      <publishTime>03/08/2022 23:35:30</publishTime>
+      <publishTime>08/03/2022 23:35:30</publishTime>
     </File>
     <File Include="Views/Eats/EatsComment.cshtml">
       <publishTime>07/19/2022 20:00:13</publishTime>
     </File>
     <File Include="Views/Eats/EatsInformation.cshtml">
-      <publishTime>03/08/2022 23:33:53</publishTime>
+      <publishTime>08/03/2022 23:33:53</publishTime>
     </File>
     <File Include="Views/Eats/EatsWeek.cshtml">
       <publishTime>07/15/2022 14:11:24</publishTime>
@@ -847,16 +847,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/11/2022 22:30:45</publishTime>
     </File>
     <File Include="Views/Register/Index.cshtml">
-      <publishTime>01/08/2022 00:57:36</publishTime>
+      <publishTime>08/01/2022 00:57:36</publishTime>
     </File>
     <File Include="Views/Register/LoginChefs.cshtml">
       <publishTime>07/29/2022 14:58:11</publishTime>
     </File>
     <File Include="Views/Register/Register.cshtml">
-      <publishTime>01/08/2022 13:35:55</publishTime>
+      <publishTime>08/01/2022 13:35:55</publishTime>
     </File>
     <File Include="Views/Register/RegisterChefs.cshtml">
-      <publishTime>01/08/2022 13:52:38</publishTime>
+      <publishTime>08/30/2022 19:47:16</publishTime>
     </File>
     <File Include="Views/Service/Index.cshtml">
       <publishTime>08/23/2022 20:45:05</publishTime>
@@ -865,7 +865,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/25/2022 11:05:15</publishTime>
     </File>
     <File Include="Views/Shared/EatsChefsLayout.cshtml">
-      <publishTime>08/24/2022 23:10:22</publishTime>
+      <publishTime>08/29/2022 23:26:19</publishTime>
     </File>
     <File Include="Views/Shared/EatsLayout.cshtml">
       <publishTime>08/24/2022 23:09:03</publishTime>
@@ -877,13 +877,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/09/2022 20:41:39</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>07/09/2022 20:41:39</publishTime>
+      <publishTime>08/30/2022 22:15:47</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
       <publishTime>07/09/2022 20:41:39</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/29/2022 22:52:20</publishTime>
+      <publishTime>08/31/2022 09:12:00</publishTime>
     </File>
     <File Include="yemeksitesi/web/404.html">
       <publishTime>07/20/2022 16:23:25</publishTime>
